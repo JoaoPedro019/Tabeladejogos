@@ -1,0 +1,40 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Tabela de classificação</title>
+    </head>
+    </html>
+<body>
+  <main class="container">
+    <h1>Call of duty classificação  <br>
+    Contra todos</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th title="Vitória = 3 Pontos">Vitórias</th>
+          <th title="Empate = 1 Ponto">Empates</th>
+          <th>Derrotas</th>
+          <th>Pontos</th>
+          <th colspan="4">Comandos</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+        <!-- Código na linha 15 no javascript  -->
+      </tbody>
+      <tbody>
+        <td colspan="8">
+          <input type="text" id="nomeJogador" placeholder="Nome do Jogador">
+          <button onclick="novoJogador();getElementById('nomeJogador').value=''">Adicionar novo Jogador</button></input>
+        </td>
+      </tbody>
+    </table>
+  </main>
+  <script src="main.js"></script>
+</body>
+
